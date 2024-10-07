@@ -196,16 +196,16 @@ int main()
 
 ## Outputs :
 ### 1.*Car Details*
-
+![Screenshot 2024-10-07 232849](https://github.com/user-attachments/assets/0b085871-7bf2-41a2-a432-3f5cf1f1d15e)
 
 ### 2.*Class By Function*
-
+![Screenshot 2024-10-07 232934](https://github.com/user-attachments/assets/df524236-b003-439c-97bb-18038c4c78bc)
 
 ### 3.*Area Of Rectangles*
-
+![Screenshot 2024-10-07 233005](https://github.com/user-attachments/assets/3a20964c-d56a-4fdd-a9c2-451a36714734)
 
 ### 4.*User Class*
-
+![Screenshot 2024-10-07 233258](https://github.com/user-attachments/assets/fb1c1f66-f08d-4c17-a78c-c55ff2d4499b)
 
 ## Conclusion :
 - **Classes** define the structure and behaviors of objects. They encapsulate data and methods into a single unit.
