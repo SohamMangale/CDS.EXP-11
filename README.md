@@ -79,24 +79,16 @@ Local variables are declared within a specific block of code, such as a function
 //experiment 11
 #include<iostream>
 using namespace std;
-class Rectangle{
-    private:
-    double length;
-    double width;
-
+class Car{
     public:
-    void setDimensions(double len,double wid){
-        length = len;
-        width = wid;
-    }
-    double calculateArea(){
-return length*width;
-    }
+    string make = "BMW";
+    string model = "M4";
+    int year = 2024;
 };
-int main() {
-    Rectangle rect;
-    rect.setDimensions(5.0, 3.0);
-    cout<< "Area: "<<rect.calculateArea()<<endl;
+int main()
+{
+    Car myCar;
+    cout<< "Car details: "<<myCar.make<<" "<<myCar.model<<"("<<myCar.year<<")"<<endl;
     return 0;
 }
 ```
@@ -111,10 +103,10 @@ using namespace std;
 class Band{
     public:
 
-    string title = "Muse";
-    string genre = "Rock";
-    string country = "England";
-    int year = 1994;
+    string title = "Winning Speaech";
+    string genre = "Punjabji";
+    string country = "India";
+    int year = 2024;
     
 
     void displayInfo(){
@@ -157,7 +149,7 @@ return length*width;
 };
 int main() {
     Rectangle rect;
-    rect.setDimensions(5.0, 3.0);
+    rect.setDimensions(8.0, 3.0);
     cout<< "Area: "<<rect.calculateArea()<<endl;
     return 0;
 }
@@ -209,7 +201,7 @@ int main()
 ### 2.*Class By Function*
 
 
-### 3.*Area Of Rectangle*
+### 3.*Area Of Rectangles*
 
 
 ### 4.*User Class*
